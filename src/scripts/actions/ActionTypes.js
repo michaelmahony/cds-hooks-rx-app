@@ -1,8 +1,0 @@
-export default {
-  "SEARCH_DRUGS": "SEARCH_DRUGS",
-  "PICK_DRUG": "PICK_DRUG",
-  "PREVIOUS_STEP": "PREVIOUS_STEP",
-  "SELECT_DATE": "SELECT_DATE",
-};
-
-
