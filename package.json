@@ -76,5 +76,8 @@
     "unmockedModulePathPatterns": [
       "<rootDir>/node_modules/react"
     ]
+  },
+  "engines": {
+    "node": "4.5.0"
   }
 }
