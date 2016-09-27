@@ -18,10 +18,10 @@ export default {
   //     "patientToGreet": "Patient/{{Patient.id}}"
   //   }
   // },
-  ["http://zika-test-app.herokuapp.com/cds-services/prime-dimensions-zika"]: {
+  ["http://prime-dimensions-zika.herokuapp.com/cds-services/prime-dimensions-zika"]: {
     enabled: true,
-    id: "http://zika-test-app.herokuapp.com/cds-services/prime-dimensions-zika",
-    url: "http://zika-test-app.herokuapp.com/cds-services/prime-dimensions-zika",
+    id: "http://prime-dimensions-zika.herokuapp.com/cds-services/prime-dimensions-zika",
+    url: "http://prime-dimensions-zika.herokuapp.com/cds-services/prime-dimensions-zika",
     name: "Patient Hello world",
     hook: "patient-view",
     prefetch: {

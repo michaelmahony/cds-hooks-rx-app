@@ -44,16 +44,12 @@
     "style-loader": "*",
     "url-loader": "*",
     "webpack": "*",
-    "webpack-dev-server": "*",
-    "engines": {
-      "node": "4.5.0"
-    }
+    "webpack-dev-server": "*"
   },
   "scripts": {
     "build": "webpack -p --config webpack.prod.config.js",
     "dev": "webpack-dev-server --host 0.0.0.0 --config webpack.dev.config.js --colors --content-base ./build",
-    "test": "jest",
-    "start": "webpack-dev-server --host 0.0.0.0 --config webpack.dev.config.js --colors --content-base ./build"
+    "test": "jest"
   },
   "author": "",
   "license": "",
@@ -76,9 +72,5 @@
     "unmockedModulePathPatterns": [
       "<rootDir>/node_modules/react"
     ]
-  },
-  "engines": {
-    "node": "4.5.0",
-    "npm": "2.15.9"
   }
 }
